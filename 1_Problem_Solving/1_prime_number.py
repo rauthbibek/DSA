@@ -4,7 +4,7 @@ def primeNumber(N: int):
     # store the count of the factor
     count = 0
     # iterating upto sqrt(N), as factors
-    # appearing in pairs
+    # appearing in pair
     for i in range(1, int(sqrt(N))+1):
         if N % i == 0:
             # e.g i=6 for N=36, then the other
