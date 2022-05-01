@@ -29,4 +29,4 @@ def k_time_rotation(A, k):
 if __name__ == '__main__':
     A = [1, 2, 3, 4, 5, 6, 7]
     k = 3
-    print(f"After {3} time rotation: {k_time_rotation(A, k)}")
+    print(f"After {k} time rotation: {k_time_rotation(A, k)}")
